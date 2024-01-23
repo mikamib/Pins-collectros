@@ -1,0 +1,77 @@
+html, body {
+	height: 50%;
+}
+body {
+	margin: 0em;
+	padding: 0em;
+	background: hsl(278, 100%, 93%) ;
+	font-family: 'monteyregular';
+	font-size: 10pt;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+
+@font-face {
+  font-family: 'monteyregular';
+  src: url('font/avenus_type-webfont.woff2') format('woff2'),
+       url('font/avenus_type-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+img {
+    width: 40%;
+    height: 30%;
+    display: flex;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+
+ div.jsp {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+ }
+.container {
+  height: 200vh; /* Hauteur suffisamment grande pour permettre le défilement */
+}
+
+#scrollImage {
+  width: 69%;
+  opacity: 0; /* L'image est initialement invisible */
+  transition: opacity 1s ease; /* Ajoute une transition pour une apparition en douceur */
+  margin-top: 14%;
+
+  float: left;
+
+}
+.boo {
+  height: 200vh; /* Hauteur suffisamment grande pour permettre le défilement */
+}
+
+#b {
+  width: 99%;
+  opacity: 0; /* L'image est initialement invisible */
+  transition: opacity 1s ease; /* Ajoute une transition pour une apparition en douceur */
+  margin-top: 20%;
+
+  float: right;
+
+}
+.images {
+  display: flex; /* Utilise la flexbox pour aligner les images côte à côte */
+}
+
+.images img {
+  width: 100%; /* Définit la largeur de chaque image à 50% pour les aligner côte à côte */
+  height: auto; /* Maintient le rapport hauteur/largeur pour éviter la distorsion */
+
+  margin-left: 30%;
+  margin-right: 1%;
+}
