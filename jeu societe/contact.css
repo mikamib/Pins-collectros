@@ -1,0 +1,118 @@
+html,
+body {
+  height: 50%;
+}
+body {
+  margin: 0em;
+  padding: 0em;
+  background: hsl(278, 100%, 93%);
+  font-family: "monteyregular";
+  font-size: 10pt;
+  display: flex;
+  font-size: 60px;
+  justify-content: center;
+}
+@font-face {
+  font-family: "monteyregular";
+  src: url("font/avenus_type-webfont.woff2") format("woff2"),
+    url("font/avenus_type-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #2f1c35;
+    color: hsl(278, 100%, 93%);
+  }
+}
+.contactez-nous {
+  width: 700px;
+  border-radius: 8px;
+  padding: 0 50px 0 50px;
+}
+
+.contactez-nous > h1 {
+  font-weight: 500;
+}
+
+.contactez-nous > p {
+  font-weight: 300;
+}
+
+form div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  min-height: 83px;
+  margin-top: 25px;
+}
+
+form div > label {
+  margin-bottom: 7px;
+  font-weight: 600;
+}
+
+form div > input,
+form div > select,
+form div > textarea {
+  background: #73c2ff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Montserrat, "sans-serif";
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+form div > input,
+form div > select {
+  height: 50px;
+  padding-left: 10px;
+}
+
+form div > select {
+  appearance: none;
+  background-size: 15px;
+  background-position: right 10px top 50%;
+  background-repeat: no-repeat;
+}
+
+form div > textarea {
+  height: 195px;
+  padding: 15px 0px 0px 10px;
+}
+
+form div > input::placeholder,
+form div > textarea::placeholder {
+  color: white;
+}
+
+form div > select option {
+  color: #303030;
+}
+
+form div:last-child {
+  align-items: center;
+  margin-top: 20px;
+}
+
+form button {
+  width: 450px;
+  max-width: 500px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 28px;
+  background: rgb(255, 169, 63);
+  border: rgba(48, 48, 48, 0.5) solid 1px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #303030;
+}
+
+.message-erreur {
+  color: red;
+  display: none;
+}
+.erreur {
+  border: 1px solid red;
+}

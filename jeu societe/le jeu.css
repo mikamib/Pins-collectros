@@ -1,0 +1,122 @@
+html,
+body {
+  height: 50%;
+}
+body {
+  margin: 0em;
+  padding: 0em;
+  background: hsl(278, 100%, 93%);
+  font-family: "monteyregular";
+  font-size: 10pt;
+  display: flex;
+  font-size: 60px;
+  justify-content: center;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #2f1c35;
+    color: hsl(278, 100%, 93%);
+  }
+}
+@font-face {
+  font-family: "monteyregular";
+  src: url("font/avenus_type-webfont.woff2") format("woff2"),
+    url("font/avenus_type-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+header {
+  width: 100%;
+}
+.LOGO {
+  margin-top: 2%;
+  margin-left: 38%;
+  width: 20%;
+  height: 20%;
+}
+.p1 {
+  margin-left: 41%;
+}
+
+.b {
+  margin-left: 13%;
+}
+.c {
+  margin-left: 18%;
+}
+.boite img {
+  margin-top: 5%;
+  margin-left: 12%;
+  width: 30%;
+}
+.boite {
+  display: flex;
+}
+.boite p {
+  margin-left: 5%;
+  margin-top: 35%;
+}
+.pions img {
+  margin-top: 5%;
+  margin-left: 12%;
+  width: 30%;
+}
+.pions {
+  display: flex;
+}
+.pions p {
+  margin-left: 5%;
+  margin-top: 35%;
+}
+.plateau img {
+  margin-top: 5%;
+  margin-left: 12%;
+  width: 30%;
+}
+.plateau {
+  display: flex;
+}
+.plateau p {
+  margin-left: 5%;
+  margin-top: 35%;
+}
+.dés img {
+  margin-top: 5%;
+  margin-left: 12%;
+  width: 30%;
+}
+.dés {
+  display: flex;
+}
+.dés p {
+  margin-left: 5%;
+  margin-top: 35%;
+}
+.carte img {
+  margin-top: 5%;
+  margin-left: 12%;
+  width: 30%;
+}
+.carte {
+  display: flex;
+}
+.carte p {
+  margin-left: 5%;
+  margin-top: 35%;
+}
+.pions3d img {
+  margin-top: 5%;
+  width: 15%;
+}
+
+.pions3d {
+  display: flex;
+  justify-content: center;
+}
+#a {
+  width: 100%;
+  justify-content: center;
+  height: auto;
+  margin-left: 0%;
+  margin-top: 5%;
+}

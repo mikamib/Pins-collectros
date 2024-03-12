@@ -1,0 +1,45 @@
+html,
+body {
+  height: 50%;
+}
+body {
+  margin: 0em;
+  padding: 0em;
+  background: hsl(278, 100%, 93%);
+  font-family: "monteyregular";
+  font-size: 10pt;
+  display: flex;
+  font-size: 60px;
+}
+@font-face {
+  font-family: "monteyregular";
+  src: url("font/avenus_type-webfont.woff2") format("woff2"),
+    url("font/avenus_type-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #2f1c35;
+    color: hsl(278, 100%, 93%);
+  }
+}
+header {
+  width: 100%;
+}
+img {
+  width: 30%;
+  height: 70%;
+  margin-left: 35%;
+}
+.p1 {
+  margin-left: 40%;
+}
+.text {
+  margin: 10%;
+}
+
+.insta {
+  width: 50%;
+  height: 50%;
+}
